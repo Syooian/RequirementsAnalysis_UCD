@@ -1,9 +1,62 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.5">
   <diagram name="第1頁" id="ijBaEXt3QW2c1VEJD6qq">
-    <mxGraphModel>
+    <mxGraphModel dx="679" dy="358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xTfdQjOr7botXfzgaLE2-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="xTfdQjOr7botXfzgaLE2-1" target="xTfdQjOr7botXfzgaLE2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xTfdQjOr7botXfzgaLE2-1" value="訪客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xTfdQjOr7botXfzgaLE2-2" value="填寫申請表單" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xTfdQjOr7botXfzgaLE2-3" value="確認資料" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xTfdQjOr7botXfzgaLE2-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="xTfdQjOr7botXfzgaLE2-1" target="xTfdQjOr7botXfzgaLE2-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="140" as="sourcePoint" />
+            <mxPoint x="280" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xTfdQjOr7botXfzgaLE2-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="xTfdQjOr7botXfzgaLE2-1" target="xTfdQjOr7botXfzgaLE2-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="140" as="sourcePoint" />
+            <mxPoint x="280" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xTfdQjOr7botXfzgaLE2-6" value="寄出Email驗證信" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xTfdQjOr7botXfzgaLE2-7" value="點擊驗證信連結" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xTfdQjOr7botXfzgaLE2-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="xTfdQjOr7botXfzgaLE2-1" target="xTfdQjOr7botXfzgaLE2-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="340" as="sourcePoint" />
+            <mxPoint x="120" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xTfdQjOr7botXfzgaLE2-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="xTfdQjOr7botXfzgaLE2-9" target="xTfdQjOr7botXfzgaLE2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xTfdQjOr7botXfzgaLE2-9" value="System" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="490" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xTfdQjOr7botXfzgaLE2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xTfdQjOr7botXfzgaLE2-12" target="xTfdQjOr7botXfzgaLE2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xTfdQjOr7botXfzgaLE2-15" value="系統寄出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xTfdQjOr7botXfzgaLE2-14">
+          <mxGeometry x="-0.2131" y="1" relative="1" as="geometry">
+            <mxPoint x="9" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xTfdQjOr7botXfzgaLE2-12" value="點擊確定註冊按鈕" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
